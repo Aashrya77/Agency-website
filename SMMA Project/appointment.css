@@ -1,0 +1,79 @@
+body {
+	background-color: #D8E4EA;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	padding: 45px;
+	background-color: #88C0D0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px #7193A6;
+}
+
+.container img {
+	display: flex;
+	width: 150px;
+	border-radius: 50%;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container i{
+	margin-right: 5px;
+}
+
+h1 {
+	color: #2E3440;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	color: #2E3440;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"] {
+	width: 98%;
+	padding: 12px;
+	margin-bottom: 18px;
+	border-radius: 5px;
+	border: none;
+	background-color: #D8E4EA;
+	color: #2E3440;
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #4C566A;
+	color: #ECEFF4;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #2E3440;
+}
+
+@media only screen and (max-width: 600px){
+	.container{
+		padding: 20px 28px;
+		width: 83%;
+	}
+
+	h1{
+		font-size: 23px;
+	}
+}

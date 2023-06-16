@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<html>
+<title>SMMA Project</title>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Noto+Serif+Georgian&family=Source+Code+Pro:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9d0240de3d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="main">
+        <!--        <video class="backvideo" autoplay loop muted plays-inline>
+            <source src="background.mp4" type="video/mp4">
+        </video>-->
+
+
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ContactContainer">Contact Us</a></li>
+                <i class="fa-solid fa-xmark fa-lg"></i>
+            </ul>
+            
+            <div class="dropdown-menu">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ContactContainer">Contact Us</a></li>
+            </div>
+
+        </nav>
+
+        <div class="toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+
+        <script>
+            const togglebtn = document.querySelector('.toggle-btn')
+            const toggleBtnIcon = document.querySelector('.toggle-btn i')
+            const dropdownmenu = document.querySelector('.dropdown-menu')
+
+            togglebtn.onclick = function () {
+                dropdownmenu.classList.toggle('open')
+                const isOpen = dropdownmenu.classList.contains('open')
+
+                toggleBtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark fa-lg'
+                    : 'fa-solid fa-bars'
+            }
+        </script>
+
+        <div class="head">
+            <h1>Elevating Brands, Socially Speaking</h1>
+            <p>"Get ready for your brand to shine brightly"</p>
+            <button class="btn" onclick="window.open('appointment.html')">Book your Discovery Call</button>
+        </div>
+    </div>
+
+    <!--Services we provide-->
+    <div id="services">
+        <div class="ser-head">
+            <h2>Our services</h2>
+            <p>We believe in the power of connecting design and technology to drive real impact in both the online and
+                conventional marketplace. Our services, including Social Media Management, Online Promotion,
+                Professional
+                Branding, Search Engine Marketing, Campaign Management and Search Engine Obtimization, craft stories and
+                conversations that enhance user experience and analytics. Join us as we bring your brand to the
+                forefront
+                with innovative and results-driven solutions.
+            </p>
+        </div>
+
+        <div class="services-container">
+            <div class="row">
+                <div id="service-slider" class="owl-carousel">
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/management.png" alt="">
+                        </div>
+                        <h3 class="soc-title"><i class="fa-solid fa-list-check fa-l"></i>Social Media Managament</h3>
+                        <p class="soc-p">We provide end-to-end social media management services that include content
+                            creation, publishing, and monitoring.
+                            We help businesses build and maintain their social media presence on platforms like
+                            Facebook, Instagram, Twitter, LinkedIn, and more.
+                        </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/influencer.png" alt="">
+                        </div>
+                        <h3 class="soc-title"><i class="fa-solid fa-money-bill-trend-up fa-xl"></i>Influencer Marketing
+                        </h3>
+                        <p class="soc-p">We help businesses identify and collaborate with influencers to amplify their
+                            brand messaging and reach a wider audience. Our team can handle influencer outreach,
+                            negotiation, and
+                            campaign management to ensure the best possible results.
+                        </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/advertising.png" alt="">
+                        </div>
+                        <h3 class="soc-title"><i class="fa-solid fa-rectangle-ad fa-2xl"></i>Paid social media
+                            advertising</h3>
+                        <p class="soc-p">We create and manage highly targeted social media ad campaigns to help
+                            businesses
+                            reach their target audience and achieve their marketing objectives. Our team is experienced
+                            in
+                            running ads on platforms like Facebook, Instagram, Twitter, LinkedIn, and more.
+                        </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/strategy.png" alt="">
+                        </div>
+
+                        <h3 class="soc-title"><i class="fa-sharp fa-solid fa-video fa-xl"></i>Social media strategy
+                            development </h3>
+                        <p class="soc-p">We help businesses develop a comprehensive social media strategy that aligns
+                            with their goals
+                            and objectives. Our team of experts will analyze your target audience, industry trends, and
+                            competitors to create
+                            a strategy that maximizes your social media ROI.
+                        </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/analytics.png" alt="">
+                        </div>
+                        <h3 class="soc-title"><i class="fa-solid fa-magnifying-glass-chart fa-xl"></i>Social media
+                            analytics and
+                            reporting</h3>
+                        <p class="soc-p">We provide regular analytics and reporting services to help businesses track
+                            their social
+                            media preformance and adjust their strategy as needed. Our team uses advanced analytics
+                            tools to measure
+                            engagement, reach, impressions and other metrics to provide actionable insights.
+                        </p>
+                    </div>
+
+                    <div class="service">
+                        <div class="icon">
+                            <img src="images/training.png" alt="">
+                        </div>
+                        <h3 class="soc-title"><i class="fa-solid fa-magnifying-glass-chart fa-2xl"></i>Social media
+                            training and
+                            workshops</h3>
+                        <p class="soc-p">We offer training and workshops to help businesses understand social media best
+                            practices and develop their own in-house social media capabilities. Our team can provide
+                            customized
+                            training to meet your specific needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <p id="ser-conclution">These services are designed to help clients increase brand exposure, reach a wider
+            audience, drive growth and
+            achieve their specific goals. Whether a client is looking to build their online presence boost engagement,
+            or drive sales, Pixdigy provides a comprehensive solution to meet their needs.</p>
+
+
+        <div class="btns2">
+            <button class="btn2" onclick="window.open('appointment.html')">Book a call</button>
+        </div>
+    </div>
+
+    <!--The things that makes us different from others-->
+    <div class="Makes-different">
+        <div class="things">
+            <h2>What makes us different from other agency</h2>
+            <P>At our SMMA agency, we pride ourselves on offering unique services and specializing in a specific niche.
+                By
+                understanding the unique challenges and needs of our clients' industries, we can position ourselves as
+                experts in those areas and offer tailored solutions. We also take a creative approach to marketing
+                campaigns, using unconventional methods and viral social media campaigns to grab attention and set
+                ourselves
+                apart from competitors. But what really sets us apart is our strong commitment to building and
+                maintaining
+                strong client relationships. By prioritizing client needs, providing exceptional customer service, and
+                offering ongoing support, we establish ourselves as trusted and reliable partners. Finally, we always
+                strive
+                for results and can demonstrate a track record of achieving measurable success for our clients, which
+                establishes our credibility and showcases our value.</P>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--Social Proof-->
+
+    <div id="Heading">
+        <h2>Testimonials</h2>
+        <p>Testimonials from customers who are satisfied with services that have been
+            effectively used in marketing for as long as marketing exists.</p>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="images/usa drop.png">
+                        </div>
+                        <p class="description">
+                            I highly recommend PIXDIGY for social media marketing. Working with them on TikTok videos
+                            for
+                            my dropshipping business was a great experience. Their team was professional, knowledgeable,
+                            and
+                            provided valuable insights that resulted in a viral video with lakhs of views and great
+                            engagement.
+                        </p>
+                        <h3 class="title">USA Drop</h3>
+                        <small class="post"></small>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="images/aussie education img.png">
+                        </div>
+                        <p class="description">
+                            Pixdigy did an excellent job with their social media marketing work for one of our branch
+                            based on Birtamode,
+                            they were undoubtedly best with their work.
+                        </p>
+                        <h3 class="title">Aussie Education</h3>
+                        <small class="post"></small>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="">
+                        </div>
+                        <p class="description">
+                            Their team was always responsive and helpful, and their expertise in social media marketing
+                            was invaluable.
+                            I highly recommend Pixdigy to any organization looking to improve their social media
+                            presence.
+                        </p>
+                        <h3 class="title">N.A.M.E.S</h3>
+                        <small class="post"></small>
+                    </div>
+
+
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="">
+                        </div>
+                        <p class="description">
+                            Pixdigy has been incredibly responsive and easy to work with. Whenever we have had questions
+                            or
+                            concerns, they have been increasing our conversions since day one till now. Happy to work
+                            with their
+                            wonderful team.
+                        </p>
+                        <h3 class="title">Wastralaya</h3>
+                        <small class="post"></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--What we do section-->
+    <div id="AboutUs">
+        <h1>About Us</h1>
+        <div class="about">
+            <div class="left">
+                <span>Welcome to Pixdigy,</span>
+                <h4> Your go-to source for all your digital needs. We are a team of passionate
+                    professionals
+                    who are dedicated to providing high-quality digital solutions to businesses and individuals alike.
+                </h4>
+            </div>
+            <div class="right">
+                <p>Our journey began in 2020, with a vision to help people achieve their digital goals. Since then, we
+                    have grown into a full-fledged digital agency that offers a wide range of services, including
+                    website
+                    design and development, graphics design, social media marketing, search engine optimization, and
+                    more.
+                </p>
+                <p>At Pixdigy, we believe that every client is unique, and therefore, we tate a personalized approach to
+                    every
+                    project we undertake. We work closely with our clients to understand their specific needs and
+                    requirements,
+                    and then we develop tailored solutions that meet their goals and exceed their expectations.
+                </p>
+                <p>
+                    Our team consists of experienced professionals who are experts in their respective fields. We are
+                    passionate about
+                    what we do, and we are committed to delivering the best possible results for our clients. Our goal
+                    is to help
+                    businesses of all sizes achieve their digital potential, and we do so by providing high-quality
+                    services at
+                    affordable prices.
+                </p>
+                <p>
+                    We pride ourselves on our ability to deliver projects on time and within budget. We understand that
+                    every client
+                    has a unique set of needs, and we work hard to ensure that we meet those needs in a timely and
+                    efficient manner.
+                </p>
+                <p>
+                    Thank you for considering Pixdigy for your digital needs. We look forward to work with you and
+                    helping you
+                    achieve your goals.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Team members-->
+    <!--
+                <div class="ExecutiveTeam">
+                    <h2 id="exe">Executive Team</h2>
+                    <div class="team">
+                        <div class="member1">
+                            <img src="https://yt3.googleusercontent.com/2p3yM-QcYgMu0WGWgWMgsIBDjeXrOmd2T1At3LN0VpoNiXrnHgNI_8jFhp2qXE9RW8q09AyI=s900-c-k-c0x00ffffff-no-rj">
+                            <h4>Mr.random</h4>
+                            <p>Manager</p>
+                        </div>
+                        <div class="member2">
+                            <img src="https://yt3.googleusercontent.com/2p3yM-QcYgMu0WGWgWMgsIBDjeXrOmd2T1At3LN0VpoNiXrnHgNI_8jFhp2qXE9RW8q09AyI=s900-c-k-c0x00ffffff-no-rj">
+                            <h4>Mr.random</h4>
+                            <p>Manager</p>
+                        </div>
+                        <div class="member3">
+                            <img src="https://yt3.googleusercontent.com/2p3yM-QcYgMu0WGWgWMgsIBDjeXrOmd2T1At3LN0VpoNiXrnHgNI_8jFhp2qXE9RW8q09AyI=s900-c-k-c0x00ffffff-no-rj">
+                            <h4>Mr.random</h4>
+                            <p>Manager</p>
+                        </div>
+                        <div class="member4">
+                            <img src="https://yt3.googleusercontent.com/2p3yM-QcYgMu0WGWgWMgsIBDjeXrOmd2T1At3LN0VpoNiXrnHgNI_8jFhp2qXE9RW8q09AyI=s900-c-k-c0x00ffffff-no-rj">
+                            <h4>Mr.random</h4>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                </div>
+            -->
+    <!--Contact us section-->
+
+
+    <div class="contact-section">
+        <div id="ContactContainer">
+            <form id="contact-form" action="index.php" method="post">
+                <h2>Contact Us</h2>
+                <h4>Got a question for us?</h4>
+                <p>Tell us about your current system and we will suggest ideas to improve. No obligations!</p>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" onclick="whatsapp()">Send</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function whatsapp(){
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let message = document.getElementById("message").value;
+
+            let whatsappurl = "http://wa.me/+9779746867498?text="
+            + "Name: " + name + "%0a"
+            + "Email: " + email + "%0a"
+            + "Message: " + message;
+
+            window.open(whatsappurl,"-blank").focus();
+        }
+    </script>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="col1">
+            <h3>Pixidy</h3>
+            <h4><i class="fa-solid fa-location-dot fa-bounce"></i>Office:</h4>
+            <p>Birtamod-1, Jhapa, Nepal</p>
+            <h4><i class="fa-solid fa-phone fa-shake"></i>Phone: +977-9746867498</h4>
+            <h4><i class="fa-solid fa-envelope fa-beat"></i>Email: Pixdigy@gmail.com</h4>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100090300309256"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a target="_blank" href="https://www.instagram.com/pixdigy/"><i class="fa-brands fa-instagram"></i></a>
+            <p id="copyright">Copyright © 2023 pixdigy.com.<br> All Rights Reserved.</p>
+
+
+        </div>
+        <div class="col2">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ContactContainer">Contact Us</a></li>
+                <li><a href="#Heading">Testimonials</a></li>
+
+            </ul>
+            <h3 id="poweredby">Powered by Aashrya Sigdel.</h3>
+        </div>
+        <div class="col3">
+            <h3>Get Started</h3>
+            <ul>
+                <li><a href="appointment.html" target="_blank">Book an Appointment</a></li>
+                <li id="privatePolicy"><a href="#">Private Policy</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        let nav = document.getElementById("menu");
+        let sticky = nav.offsetTop;
+
+        function navSticky() {
+            if (window.pageYOffset >= sticky) {
+                nav.classList.add("sticky")
+            } else {
+                nav.classList.remove("sticky")
+            }
+        }
+    </script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#testimonial-slider").owlCarousel({
+                items: 2,
+                itemsDesktop: [1000, 2],
+                itemsDesktopSmall: [990, 2],
+                itemsTablet: [768, 1],
+                pagination: true,
+                navigation: false,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#service-slider").owlCarousel({
+                items: 3,
+                itemsDesktop: [1000, 2],
+                itemsDesktopSmall: [990, 2],
+                itemsTablet: [768, 1],
+                pagination: true,
+                navigation: false,
+                navigationText: ["", ""],
+                slideSpeed: 1000,
+                autoPlay: true
+            });
+        });
+    </script>
+
+    <script>
+        const scriptURL = ''
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(() => {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "aashryasigdel0@gmail.com",
+                Password: "s@msungS4",
+                To: 'aashryasigdel0@gmail.com',
+                From: document.getElementById("email").value,
+                Subject: "New contact form message",
+                Body: "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value + "<br> Message: " + document.getElementById("message").value
+            }).then(
+                message => alert("Message sent successfully")
+            );
+        }
+    </script>
+
+</body>
+
+</html>
